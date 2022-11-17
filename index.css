@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: yellow;
+}
+
+.image-container{
+    width: 80%;
+    height: 60vh;
+    /* background: url(image-slide-img/ba2.webp) center/cover fixed no-repeat; */
+    background: url(image-slide-img/ba2.webp) fixed no-repeat; 
+    
+    border: 0.5rem solid #fff700;
+    border-radius: 0.5rem;
+    position: relative;
+    margin: 4rem auto;
+    box-shadow: 10px 10px 35px rgb(0, 0, 0,0.6);
+    transition-duration: 2s;
+    
+
+}
+
+.btn-left{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background-color: aquamarine;
+    color:black;
+    transform: translate(-50%, -50%);
+    border: 0.2rem solid green;
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.btn-right{
+    position: absolute;
+    top: 50%;
+    right:0;
+    background-color: aquamarine;
+    color:black;
+    transform: translate(50%, -50%);
+    border: 0.2rem solid green;
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
