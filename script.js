@@ -13,7 +13,7 @@
         if (counter < 0){
             counter = pictures.length - 1
         }
-            imgDiv.style.background =`url(${pictures[counter]}.webp)`
+            imgDiv.style.backgroundImage =`url(${pictures[counter]}.webp)`
             imgDiv.style.backgroundRepeat = "no-repeat"
             imgDiv.style.backgroundSize = "cover"
         }
@@ -23,7 +23,7 @@
         if (counter > pictures.length - 1){
             counter = 0
         }
-            imgDiv.style.background =`url(${pictures[counter]}.webp)`
+            imgDiv.style.backgroundImage =`url(${pictures[counter]}.webp)`
             imgDiv.style.backgroundRepeat = "no-repeat";
             imgDiv.style.backgroundSize = "cover"
         }
