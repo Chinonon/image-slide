@@ -10,17 +10,17 @@ body{
 
 .image-container{
     width: 80%;
-    height: 60vh;
+    height: 90vh;
     /* background: url(image-slide-img/ba2.webp) center/cover fixed no-repeat; */
-    background: url(image-slide-img/ba2.webp) fixed no-repeat; 
-    
+    background-image: url("ba2.webp"); 
+    background-repeat: no-repeat;
     border: 0.5rem solid #fff700;
     border-radius: 0.5rem;
     position: relative;
-    margin: 4rem auto;
+    margin: 2rem auto;
     box-shadow: 10px 10px 35px rgb(0, 0, 0,0.6);
     transition-duration: 2s;
-    
+    background-size: cover;
 
 }
 
